@@ -119,7 +119,7 @@ public class MainFrame extends JFrame {
 	* @param calculatorGUI Speicher- und Berechnungsmodel fuer die GUI.
 	*/
 	public MainFrame(CalculatorGUI calculatorGUI) {
-		super("q9721070 - Matthias Blank - Grundpraktikum: Die konvexe Hülle und größte enthaltene Objekte");
+		super("Algorithmische Geometrie");
 		Controller controller = new Controller(calculatorGUI, this);
 		addMouseListener(controller);
 		setLayout(new BorderLayout());
